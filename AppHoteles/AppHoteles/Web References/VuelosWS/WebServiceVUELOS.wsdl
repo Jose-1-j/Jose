@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="Servicios">
+        <s:complexType />
+      </s:element>
+      <s:element name="ServiciosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ServiciosResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ServicioUnico">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="p_strName" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ServicioUnicoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ServicioUnicoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="ServiciosSoapIn">
+    <wsdl:part name="parameters" element="tns:Servicios" />
+  </wsdl:message>
+  <wsdl:message name="ServiciosSoapOut">
+    <wsdl:part name="parameters" element="tns:ServiciosResponse" />
+  </wsdl:message>
+  <wsdl:message name="ServicioUnicoSoapIn">
+    <wsdl:part name="parameters" element="tns:ServicioUnico" />
+  </wsdl:message>
+  <wsdl:message name="ServicioUnicoSoapOut">
+    <wsdl:part name="parameters" element="tns:ServicioUnicoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="WebServiceVUELOSSoap">
+    <wsdl:operation name="Servicios">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Operacion que Lista los Servicios de Vuelos de la Areolinea</wsdl:documentation>
+      <wsdl:input message="tns:ServiciosSoapIn" />
+      <wsdl:output message="tns:ServiciosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ServicioUnico">
+      <wsdl:documentation xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">Operacion que Obtiene un Servicio especifico segun el Codigo Ingresado</wsdl:documentation>
+      <wsdl:input message="tns:ServicioUnicoSoapIn" />
+      <wsdl:output message="tns:ServicioUnicoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WebServiceVUELOSSoap" type="tns:WebServiceVUELOSSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Servicios">
+      <soap:operation soapAction="http://tempuri.org/Servicios" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ServicioUnico">
+      <soap:operation soapAction="http://tempuri.org/ServicioUnico" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WebServiceVUELOSSoap12" type="tns:WebServiceVUELOSSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Servicios">
+      <soap12:operation soapAction="http://tempuri.org/Servicios" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ServicioUnico">
+      <soap12:operation soapAction="http://tempuri.org/ServicioUnico" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WebServiceVUELOS">
+    <wsdl:port name="WebServiceVUELOSSoap" binding="tns:WebServiceVUELOSSoap">
+      <soap:address location="http://webservicesviajes.somee.com/WebServiceVUELOS.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WebServiceVUELOSSoap12" binding="tns:WebServiceVUELOSSoap12">
+      <soap12:address location="http://webservicesviajes.somee.com/WebServiceVUELOS.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

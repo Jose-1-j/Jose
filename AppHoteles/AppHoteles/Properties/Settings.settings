@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AppHoteles.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="AppHoteles_AutosWS_WebServiceAUTOS" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://www.webservicesautos.somee.com/WebServiceAUTOS.asmx</Value>
+    </Setting>
+    <Setting Name="AppHoteles_VuelosWS_WebServiceVUELOS" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://webservicesviajes.somee.com/WebServiceVUELOS.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
