@@ -1,0 +1,13 @@
+C:\Users\Estudiantes\source\repos\WcfService1\WcfService1\bin\WcfService1.dll.config
+C:\Users\Estudiantes\source\repos\WcfService1\WcfService1\bin\WcfService1.dll
+C:\Users\Estudiantes\source\repos\WcfService1\WcfService1\bin\WcfService1.pdb
+C:\Users\Estudiantes\source\repos\WcfService1\WcfService1\obj\Debug\WcfService1.csprojAssemblyReference.cache
+C:\Users\Estudiantes\source\repos\WcfService1\WcfService1\obj\Debug\WcfService1.dll
+C:\Users\Estudiantes\source\repos\WcfService1\WcfService1\obj\Debug\WcfService1.pdb
+C:\Users\JOSE QUINTERO\Documents\EjercicioC#\AplicacionesWS\WcfService\WcfService1\bin\WcfService1.dll.config
+C:\Users\JOSE QUINTERO\Documents\EjercicioC#\AplicacionesWS\WcfService\WcfService1\bin\WcfService1.dll
+C:\Users\JOSE QUINTERO\Documents\EjercicioC#\AplicacionesWS\WcfService\WcfService1\bin\WcfService1.pdb
+C:\Users\JOSE QUINTERO\Documents\EjercicioC#\AplicacionesWS\WcfService\WcfService1\obj\Debug\WcfService1.csprojAssemblyReference.cache
+C:\Users\JOSE QUINTERO\Documents\EjercicioC#\AplicacionesWS\WcfService\WcfService1\obj\Debug\WcfService1.csproj.CoreCompileInputs.cache
+C:\Users\JOSE QUINTERO\Documents\EjercicioC#\AplicacionesWS\WcfService\WcfService1\obj\Debug\WcfService1.dll
+C:\Users\JOSE QUINTERO\Documents\EjercicioC#\AplicacionesWS\WcfService\WcfService1\obj\Debug\WcfService1.pdb

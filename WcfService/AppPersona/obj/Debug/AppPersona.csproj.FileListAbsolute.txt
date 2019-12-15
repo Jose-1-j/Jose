@@ -1,0 +1,10 @@
+C:\Users\JOSE QUINTERO\Documents\EjercicioC#\AplicacionesWS\WcfService\AppPersona\bin\Debug\AppPersona.exe.config
+C:\Users\JOSE QUINTERO\Documents\EjercicioC#\AplicacionesWS\WcfService\AppPersona\bin\Debug\AppPersona.exe
+C:\Users\JOSE QUINTERO\Documents\EjercicioC#\AplicacionesWS\WcfService\AppPersona\bin\Debug\AppPersona.pdb
+C:\Users\JOSE QUINTERO\Documents\EjercicioC#\AplicacionesWS\WcfService\AppPersona\obj\Debug\AppPersona.csprojAssemblyReference.cache
+C:\Users\JOSE QUINTERO\Documents\EjercicioC#\AplicacionesWS\WcfService\AppPersona\obj\Debug\AppPersona.Form1.resources
+C:\Users\JOSE QUINTERO\Documents\EjercicioC#\AplicacionesWS\WcfService\AppPersona\obj\Debug\AppPersona.Properties.Resources.resources
+C:\Users\JOSE QUINTERO\Documents\EjercicioC#\AplicacionesWS\WcfService\AppPersona\obj\Debug\AppPersona.csproj.GenerateResource.cache
+C:\Users\JOSE QUINTERO\Documents\EjercicioC#\AplicacionesWS\WcfService\AppPersona\obj\Debug\AppPersona.csproj.CoreCompileInputs.cache
+C:\Users\JOSE QUINTERO\Documents\EjercicioC#\AplicacionesWS\WcfService\AppPersona\obj\Debug\AppPersona.exe
+C:\Users\JOSE QUINTERO\Documents\EjercicioC#\AplicacionesWS\WcfService\AppPersona\obj\Debug\AppPersona.pdb
